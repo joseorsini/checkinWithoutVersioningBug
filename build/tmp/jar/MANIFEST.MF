@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-Description: dotCMS OSGI Hooks example
+Bundle-SymbolicName: com.dotcms.hooks2
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1500636072000
+Bundle-DocURL: http://www.dotcms.com
+Bundle-Vendor: dotcms
+Import-Package: com.dotcms.repackage.org.apache.logging.log4j;version=
+ 0,com.dotcms.repackage.org.apache.logging.log4j.core;version=0,com.do
+ tcms.repackage.org.apache.logging.log4j.spi;version=0,com.dotmarketin
+ g.business;version=0,com.dotmarketing.exception;version=0,com.dotmark
+ eting.loggers;version=0,com.dotmarketing.osgi;version=0,com.dotmarket
+ ing.portlets.categories.business;version=0,com.dotmarketing.portlets.
+ contentlet.business;version=0,com.dotmarketing.portlets.contentlet.mo
+ del;version=0,com.dotmarketing.portlets.fileassets.business;version=0
+ ,com.dotmarketing.portlets.languagesmanager.business;version=0,com.do
+ tmarketing.portlets.languagesmanager.model;version=0,com.dotmarketing
+ .util;version=0,com.liferay.portal.model;version=0,org.osgi.framework
+ ;version=0
+DynamicImport-Package: *
+Tool: Bnd-2.1.0.20130426-122213
+Export-Package: com.dotmarketing.osgi.hooks;version="0.2";uses:="com.d
+ otmarketing.osgi,org.osgi.framework"
+Bundle-Name: Osgi Hooks example
+Bundle-Version: 0.2
+Bundle-Activator: com.dotmarketing.osgi.hooks.Activator
+Created-By: 1.8.0_121 (Oracle Corporation)
+
